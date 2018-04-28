@@ -1,0 +1,67 @@
+/* Initial Elements*/
+body{
+    background-image: url("../images/background.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px lightgreen;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+    text-align: center;
+}
+h1{
+	font-size: 30px;
+}
+h3{
+    font-size: 20px;
+    text-decoration: underline;
+}
+ul {
+	list-style: circle inside;
+	text-indent: 20px;
+}
+/* Div Elements*/
+div.header, div.gems{
+	background-color: #e0e0eb;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.crystals{
+    clear: both;
+    width: 450px;
+}
+.crystalsImage{
+    height: 60px;
+	margin: 10px;
+}
+/* IDs */
+#blue{
+	color: blue;
+}
+#ruby{
+	color: red;
+}
+#white{
+	color: gray;
+}
+#pink{
+	color: magenta;
+}

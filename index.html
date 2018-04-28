@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystals Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Crystals Collector!</h1>
+    </div>
+    
+	<div class="instructions">
+		<h3>Instructions</h3>
+        <br>
+		<p>You will be given a random number at the start of the game.<span>"Number To Get"</span></p>
+        <br>
+        <p>There are four crystals below.
+			<ul>
+				<li id="blue">Blue</li>
+				<li id="ruby">Ruby</li>
+				<li id="white">White</li>
+				<li id="pink">Pink</li>
+            </ul>
+            <br>
+			By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+            <br>
+            <p>You win the game by matching your total score to the random number.
+			You lose the game if your total score goes above the random number.</p>
+            <br>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <br>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+		</ul>
+    </div>
+    
+	<div class="numberToMatch">
+		<h2>Number To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+    
+    <div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+            <br>
+            <br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+    
+    <div class="crystals">
+		<img src="/Users/tenille3/Desktop/unit-4-game/assets/images/blue.png" class=crystalsImage id="one" alt="Blue Gem">
+		<img src="/Users/tenille3/Desktop/unit-4-game/assets/images/ruby.png" class=crystalsImage id="two" alt="Ruby Gem">
+		<img src="/Users/tenille3/Desktop/unit-4-game/assets/images/clear.png" class=crystalsImage id="three" alt="Clear Gem">
+		<img src="/Users/tenille3/Desktop/unit-4-game/assets/images/pink.png" class=crystalsImage id="four" alt="Pink Gem">
+    </div>
+
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+    </div>
+    
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="/Users/tenille3/Desktop/unit-4-game/assets/javascript/game.js"></script>
+</body>
+</html>
